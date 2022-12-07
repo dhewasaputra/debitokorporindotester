@@ -1,0 +1,206 @@
+body {
+    background-color: white;
+}
+.nav-li {
+    display: inline-block;
+    
+}
+
+
+.office {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+  
+  .Font-poppins {
+    font-family: 'Poppins';font-size: 20px;
+    color:white;
+  }
+
+  .contact-btn {
+    width: 40%;
+    height: 20%;
+    margin-top:100px ;
+    border-radius: 10px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .service-block-two {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.service-block-two .inner-box {
+    position: relative;
+    overflow: hidden;
+    padding: 45px 45px;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    
+}
+.service-block-two .inner-box:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 0;
+    background-color: #00a86b;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    transition: all 600ms ease;
+    
+}
+.service-block-two .inner-box .shape-one {
+    content: '';
+    width: 250px;
+    height: 250px;
+    background: #0060ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -120px;
+    opacity: 0.4;
+    right: -120px;
+    transform: scale(0);
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+.service-block-two .inner-box .shape-two {
+    content: '';
+    width: 373px;
+    height: 373px;
+    background: #0060ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -180px;
+    right: -180px;
+    z-index: 1;
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+.service-block-two .inner-box .icon-box {
+    position: relative;
+    font-size: 65px;
+    line-height: 1em;
+    color: #0060ff;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.service-block-two .inner-box .icon-box {
+    position: relative;
+    z-index: 2;
+}
+.service-block-two .inner-box .icon-box {
+    position: relative;
+    font-size: 65px;
+    line-height: 1em;
+    color: #0060ff;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.service-block-two .inner-box h5 {
+    position: relative;
+    z-index: 2;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin: 20px 0px 15px;
+}
+.service-block-two .inner-box .text {
+    position: relative;
+    color: #222222;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 1.8em;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.service-block-two .inner-box:hover::before {
+    height: 100%;
+    opacity: 1;
+}
+.service-block-two .inner-box:hover .shape-one {
+    transform: scale(1);
+    webkit-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+.service-block-two .inner-box:hover .shape-two {
+    opacity: 0.4;
+    transform: scale(1);
+    webkit-transition-delay: 600ms;
+    -ms-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.service-block-two .inner-box:hover .icon-box, .service-block-two .inner-box:hover h5 a, .service-block-two .inner-box:hover .text {
+    color: #ffffff;
+}
+.service-block-two .inner-box:hover .icon-box, .service-block-two .inner-box:hover h5 a, .service-block-two .inner-box:hover .text {
+    color: #ffffff;
+}
+.service-block-two .inner-box:hover .icon-box, .service-block-two .inner-box:hover h5 a, .service-block-two .inner-box:hover .text {
+    color: hsl(0, 0%, 100%);
+}
+.bg-hdr {
+  background-image: url(/image/header.jpg);
+  height: 50em;
+  width:100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  position: relative;
+  background-size: cover;
+  opacity: 0.8;
+  max-width: 10000px;
+  min: height 999px; ;
+}
+
+  
+ 
+.txt-dbt {
+   font-size: 50px;
+   color: black;
+   margin-top:-90px ;
+    
+}
+.bg-img {
+background-image: url(https://i.pinimg.com/600x315/b0/2a/e2/b02ae2523a2c395bab1d7828492338bd.jpg);
+
+}
+
+.ctg-us {
+    width: 100%;
+    height: auto;
+    
+}
